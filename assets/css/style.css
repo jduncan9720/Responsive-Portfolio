@@ -57,7 +57,6 @@ h2{
     padding-bottom: 20px;
 }
 .nav {
-    width: 30%;
     float: right;
 }
 li {
@@ -152,4 +151,23 @@ h5 {
     border-style: solid;
     border-width: 7px 0px 0px 0px;
     border-color: #4aaaa5;
+}
+
+@media screen and (max-width: 980px) {
+    .container {
+        width: 500px;
+        margin: 100px auto 30px 20px;
+    }
+    .headcontain {
+        width: auto;
+        height: 65px;
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+}
+@media screen and (max-width: 768px) {
+    
+}
+@media screen and (max-width: 640px) {
+    
 }
