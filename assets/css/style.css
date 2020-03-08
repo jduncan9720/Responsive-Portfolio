@@ -210,3 +210,11 @@ h5 {
     h2 {
         text-align: center;
     }
+
+    .profile {
+        float: none;
+        width: 280px;
+        height: auto;
+        margin-left: 10px;
+        
+    }
