@@ -108,7 +108,7 @@ label{
     color: #777777;
 }
 .port {
-    width: 30%;
+    width: 210px;
     height: auto;
     margin: 15px;
 }
@@ -166,8 +166,47 @@ h5 {
     }
 }
 @media screen and (max-width: 768px) {
+    .container {
+        width: 700px;
+        margin: 100px auto 30px auto;
+    }
+    .headcontain {
+        width: auto;
+        height: 65px;
+        margin-left: 30px;
+        margin-right: 30px;
+    }
     
 }
 @media screen and (max-width: 640px) {
-    
+    .container {
+        width: 300px;
+        margin: 100px auto 30px auto;
+    }
+    .headcontain {
+        width: auto;
+        height: 65px;
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+    .imagecontain {
+        width: 300px;
+        margin-left: 30px;
 }
+    .headcontain {
+    width: 300px;
+    height: auto;
+    margin-left:210px;
+    margin-right: auto;
+    }
+    header {
+        height: 100px;
+        
+    }
+    .nav {
+        float: left;
+    }
+
+    h2 {
+        text-align: center;
+    }
